@@ -25,3 +25,7 @@ Voici un lien vers un [cours](https://lehollandaisvolant.net/tuto/bin/) qui perm
 Sinon se tableau suffira :
 
 ![Tableau binaire 3 bits](https://github.com/J3R5/Arduino_decodeur/blob/main/datasheet/photo_tableau_binaire.png)
+
+#### Entrée Binaire : 
+
+Les entrées binaires définisse les nombres de sortie avec la formule 2^X avec X etant le nombre d'entrée. 
