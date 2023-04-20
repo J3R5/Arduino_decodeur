@@ -23,4 +23,4 @@ Le decodeur fonctionne en **Binaire** c'est a dire en état logique 0-1 donc par
 Voici un lien vers un [cours](https://lehollandaisvolant.net/tuto/bin/) qui permet d'en apprendre plus sur le binaire.
 
 Sinon se tableau suffira :
-![Tableau binaire 3 bits]()
+![Tableau binaire 3 bits](https://github.com/J3R5/Arduino_decodeur/blob/main/datasheet/photo_tableau_binaire.png)
