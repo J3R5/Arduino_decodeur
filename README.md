@@ -20,7 +20,7 @@ Un décodeur contient plusieurs partie :
 
 Le decodeur fonctionne en **Binaire** c'est a dire en état logique 0-1 donc par exemple un décodeur qui fonctionne en 0/5V il envoie soit du 0V soit du 5V. 
 
-Voici un lien vers un [cours]() qui permet d'en apprendre plus sur le binaire.
+Voici un lien vers un [cours](https://lehollandaisvolant.net/tuto/bin/) qui permet d'en apprendre plus sur le binaire.
 
-Sinon se tableau suffira
+Sinon se tableau suffira :
 ![Tableau binaire 3 bits]()
