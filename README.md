@@ -28,4 +28,4 @@ Sinon se tableau suffira :
 
 #### Entrée Binaire : 
 
-Les entrées binaires définisse les nombres de sortie avec la formule 2^X avec X etant le nombre d'entrée. 
+Les entrées binaires définisse les nombres de sortie avec la formule 2^X avec X etant le nombre d'entrée. Les entrées binaire ont 2 état logique 0 et 1 elle fonctionne donc en binaire. Dans le cas du décodeur utilisé 0 correspond a du 0V et l'état 1 a du 5V. Dans le cas d'une tension qui serait compris entre 0 et 5V par exemple 3V l'etat logique serait indeterminer. 
