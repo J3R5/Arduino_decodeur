@@ -34,4 +34,13 @@ Le resultat de l'addition des valeurs des différent état détermine la sortie 
 
 #### Entrée de Validation :
 
+les entrées de validation sont important dans le fonctionnement du systeme en effet c'est elle qui permette de définir si le systeme est actif ou non. Le système est dit actif si la sortie correspondant au entrée binaire est a l'état 1. le système est dit inactif si toutes les sorties binaire sont a l'état 0. On peut donc résumer les entrées de validation comme des interrupteur qui permettent d'activer ou non le système. Pour activer le système il faut que toutes les entrée de validation soit a 1 c'est a dire qu'elle recoit un signal de 5V dans le cas du decodeur 74HC238. Dans le cas ou une entrée du decodeur n'est pas a 1 le système n'est pas actif. Dans le cas ou une entrées se trouve entre l'etat 0 et 1 le système est dans un état indeterminées. Les entrées de validation peuvent etre inverser ou non c'est a dire que une entrée non inverser l'état d'entrée est l'état de la sortie par exemple si a l'entrée de validation on as 1 l'entrée est a 1. Dans le cas d'une entrée inversé l'etat a l'entrée est l'opposée de l'entrée c'est a dire que si on envoie du 5V a l'entrée donc l'état 1 l'entrée de validation sera a 0. Ces entrées inversé sont symbolisée par un rond sur leur entrée comme E2 et E1 du décodeur 74HC238. En résumer pour que un décodeur fonctionne normalement il faut que toute ces entré de validation soit a l'état haut c'est a dire 1.
+
+#### Sortie Binaire :
+
+
+
+
+
+
 
