@@ -38,9 +38,11 @@ les entrées de validation sont important dans le fonctionnement du systeme en e
 
 #### Sortie Binaire :
 
+Les sortie Binaires sont les sorties qui vont être activé en fonction du code en entrée. Les sorties sont suppérieurs au nombre d'entrées. Une seul sortie peux être activée a la fois car il dépend du code en entrée. Les sorties binaire tous comme les entrées binaire et de validation ont 2 été 0 ou 1 donc sois elle envoie 0V soit 5V pas entre les deux. Le resultats de toutes les sorties binaire sera 0V si le module n'est pas alimentée ou que toute les entrées de validation ne sont pas a l'état logique 1. Dans le cas ou le module est alimentée et que toutes les entrée de validation sont a 1 l'une des sorties du décodeurs sera activée.
 
+### Décodeur 74HC238 3 vers 8 :
 
-
+Pour finir voici une petite explication du décodeur 74HC238 3 vers 8. Ce décodeur possède 3 entrées de validation et donc 8 sortie Binaire. il possède aussi 3 entrées de validation 2 en entrée inverser et 1 en entrée non inverser. Il fonction en 5 que se soit le Vcc, les entrées ou les sorties.
 
 
 
