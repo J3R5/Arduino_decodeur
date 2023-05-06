@@ -69,5 +69,43 @@ Si toutes **les entrées de validation** ne sont pas **utilisée** il est possib
 
 Ici on déclare **E1**, **E2** et **E3** séparrement. Cela donne **exactement le même résulat** que la ligne au dessus mais ces commandes **permettent de ne pas en déclarer une par exemple.**
 
+#### Initialisation Code binaire :
 
+Une autre partie a initialisée hormis les entrées binaires sont *les entrées de validation*. Pour **initialiser** ces entrées **il n'existe qu'une seul commande.** La **raison est que les trois entrées de validation** sont *utilisé* pour déterminer la sortie a activé.
+
+~~~C++
+
+  decodeur_exemple.Init_CodeBinaire(2, 3, 4);  
+
+~~~
+
+Cette *commande* prend les différents **Pin** dans l'ordre suivant **A0, A1, A2** et va les **déclarer** en temps que **sortie.** 
+
+#### Erreur a ne pas faire :
+
+Il est **important** de ne pas faire certaine chose dans **l'initialisation.** Par exemple il ne faut pas que les différentes broche initialisée ont les mêmes Pin sinon les commande ne marche pas. Il ne faut non plus utilisé les mêmes pin pour le code binaire ou **les entrées analogique.**
+
+Il **ne faut pas utilisé** la commande pour initialisé **les 3 pins des entrées** en même temps puis utilisé un commande qui n'en **initialise 1 pin.**
+
+Il ne faut pas changer **ces Pins** en cours de route.
+
+### Fonction Sortie :
+
+Après avoir initialisée les Pin on peut utilisé les différentes commande pour piloté les sortie.
+
+#### Pilotage Entrée de validation :
+
+Pour **piloté les entrées de validations** on peut utilisé différente **commande.**
+
+1) Pilotage global
+
+On peut **utilisé une commande** qui permet de **piloté toutes les entrées de validation** en même temps.
+
+~~~C++
+
+  decodeur_exemple.Validation(1, 0, 1);
+
+~~~
+
+Cette comande va envoyer du 5V pour 1 et 0V pour 0. Les sorties sont pilotées dans l'ordre suivant E1, E2 et E3. Cela ne veux pas dire que si l'on envoie du 5V la sortie sera a l'état 1, comme dans le cas ou la sortie est inversée.
 
