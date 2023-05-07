@@ -107,5 +107,38 @@ On peut **utilisé une commande** qui permet de **piloté toutes les entrées de
 
 ~~~
 
-Cette comande va envoyer du 5V pour 1 et 0V pour 0. Les sorties sont pilotées dans l'ordre suivant E1, E2 et E3. Cela ne veux pas dire que si l'on envoie du 5V la sortie sera a l'état 1, comme dans le cas ou la sortie est inversée.
+Cette comande va envoyer du **5V** pour **1** et **0V** pour **0.** **Les sorties sont pilotées dans l'ordre suivant E1, E2 et E3.** Cela ne veux pas dire que si l'on envoie du 5V la sortie sera a l'état 1, comme dans le cas ou la sortie est inversée.
+
+2) pilotage selectif :
+
+Dans le cas ou l'on veut changer l'état que de 1 seul entrée de validation on peut utilisé ces commandes :
+
+~~~C++
+
+  //E1
+  decodeur_exemple.Validation_E1(1);
+
+  //E2
+  decodeur_exemple.Validation_E2(0);
+
+  //E3
+  decodeur_exemple.Validation_E3(1);
+
+~~~
+
+Voici **les 3 commandes** pour initialiser **E1**, **E2** et **E3** séparrement. On peut utiliser ces commandes si l'on change l'état de que l'une **des entrées.*
+
+#### Pilotage Entrée Binaire :
+
+Il existe **2 façons** de **piloté les entrées binaire** qui vont affecté **les sorties binaire.** On peut sois utilisé **le code binaire** a envoyer sois décider d'allumer une **sortie binaire spécifique.**
+
+##### Pilotage via Code Binaire
+
+Le pilotage via code binaire se fait de 2 façons sois global sois spécifique.
+
+1) Pilotage global :
+
+Pour Piloté globalement il existe 1 commande :
+
+
 
