@@ -140,5 +140,48 @@ Le pilotage via code binaire se fait de 2 façons sois global sois spécifique.
 
 Pour Piloté globalement il existe 1 commande :
 
+~~~C++
+
+  decodeur_exemple.Code_binaire(0, 1, 1);
+
+~~~
+
+Dans ce cas **la commande** pilote **les trois sorties** en une commande. **L'ordre de pilotage** est le suivant **A0**, **A1** et **A2**. 1 envoie du 5V et 0 envoie du 0V.
+
+2) Pilotage Séparée :
+
+On peut faire **la même chose** avec **trois commandes** :
+
+~~~C++
+
+  //A0
+  decodeur_exemple.Code_a0(0);
+
+  //A1
+  decodeur_exemple.Code_a1(1);
+
+  //A2
+  decodeur_exemple.Code_a2(1);
+
+~~~
+
+Ici on fait **la même chose** mais avec **une commande** qui pilote une sortie différente.
+
+3) Pilotage Décimal :
+
+La dernière méthode de **pilotage** est de choisir **la sortie a allumé.**
+
+~~~C++
+
+  decodeur_exemple.Code_decimal(5);
+
+~~~
+
+Dans ce cas c'est **la sortie 5** qui va être activée. On peut choisir **un nombre entre 0 et 7** pour utilisé cette commande.
+
+### Fin 
+
+Ceci est toutes les commandes de la bibliothèque. Pour voir comment marche le programme exemple il faut aller voir le [Document]() sinon pour savoir comment marche un décodeur il faut aller voir le premier [markdown]().
+
 
 
