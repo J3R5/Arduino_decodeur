@@ -2,7 +2,7 @@
 
 ### Introduction :
 
-Ce __répertoire__ va parler du [Décodeur 74HC238](https://github.com/J3R5/Arduino_decodeur/blob/main/datasheet/74HC238.PDF) c'est un décodeur 3 vers 8. Ce **Mardown** va expliquer le fonctionnement d'un décodeur en règle générale et aussi du **décodeur** 3 vers 8 **74HC238**. Pour savoir comment marche le décodeur avec la bibliothèque arduino, il faut aller voir ce [Mardown](https://github.com/J3R5/Arduino_decodeur/blob/main/Biblioth%C3%A8que/Explication.md) ou ce [document](https://github.com/J3R5/Arduino_decodeur/blob/main/Documentation/Decodeur_74HC238.pdf) pour le code exemple. Sinon, vous pouvez aller directement voir le [Code]().
+Ce __répertoire__ va parler du [Décodeur 74HC238](https://github.com/J3R5/Arduino_decodeur/blob/main/datasheet/74HC238.PDF) c'est un décodeur 3 vers 8. Ce **Mardown** va expliquer le fonctionnement d'un décodeur en règle générale et aussi du **décodeur** 3 vers 8 **74HC238**. Pour savoir comment marche le décodeur avec la bibliothèque arduino, il faut aller voir ce [Mardown](https://github.com/J3R5/Arduino_decodeur/blob/main/Biblioth%C3%A8que/Explication.md) ou ce [document](https://github.com/J3R5/Arduino_decodeur/blob/main/Documentation/Decodeur_74HC238.pdf) pour le code exemple. Sinon, vous pouvez aller directement voir le [Code](https://github.com/J3R5/Arduino_decodeur/blob/main/Biblioth%C3%A8que/JC_decodeur/JC_decodeur.cpp).
 
 ### Principe d'un Décodeur :
 
