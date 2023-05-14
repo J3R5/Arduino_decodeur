@@ -181,7 +181,7 @@ Dans ce cas, c'est **la sortie 5** qui va être activée. On peut choisir **un n
 
 ### Fin 
 
-Ce document montre toutes les commandes de la bibliothèque. Pour voir comment marche le programme exemple, il faut aller voir le [Document]() sinon pour savoir comment marche un décodeur, il faut aller voir le premier [markdown](https://github.com/J3R5/Arduino_decodeur/blob/main/README.md).
+Ce document montre toutes les commandes de la bibliothèque. Pour voir comment marche le programme exemple, il faut aller voir le [Document](https://github.com/J3R5/Arduino_decodeur/blob/main/Documentation/Decodeur_74HC238.pdf) sinon pour savoir comment marche un décodeur, il faut aller voir le premier [markdown](https://github.com/J3R5/Arduino_decodeur/blob/main/README.md).
 
 
 
